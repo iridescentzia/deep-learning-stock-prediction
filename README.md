@@ -22,6 +22,10 @@ S&P 500 주식 데이터를 활용하여 다중 모델(MLP, LSTM, Transformer)�
 - 라이브러리 : NumPy, Pandas, Scikit-learn, Matplotlib
 - 환경 : Python 3
 
-### 📈 결과 분석
+### 📈 성능 평가
 S&P 500 전체 약 500개 종목에 대해 예측을 수행하였으나, 분석의 초점을 맞추기 위해 AAPL, MSFT, NVDA 3개의 종목을 선정하여 결과를 비교하였습니다.
-- RMSE : Transformer가 MSFT 및 NVDA에서 가장 좋은 성능을 보였으나, AAPL의 경우 MLP가 가장 우수한 성능을 기록
+
+- 정량적 평가
+    - RMSE : Transformer가 MSFT 및 NVDA에서 가장 좋은 성능을 보였으나, AAPL의 경우 MLP가 가장 우수한 성능을 기록
+    - MDA : 모델 간 차이가 크지 않음
+    ![성능평가지표](성능지표_결과.png)
