@@ -49,7 +49,7 @@ Transformer 모델의 Self-Attention 메커니즘이 시계열 데이터 예측�
 - 라이브러리 : NumPy, Pandas, Scikit-learn, Matplotlib
 - 환경 : Python 3
 
-### ⚙️ 학습 설정 (Training Configuration)
+### ⚙️ 학습 설정
 
 - **Loss Function** : `MSELoss()`
 - **Optimizer** : `Adam`
